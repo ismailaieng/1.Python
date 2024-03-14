@@ -1,13 +1,9 @@
 class classfunctionassignment():
     def Subfields():
-       # Lists= input("Machine Learning,Neural Networks,Vision,Robotics,Speech Processing,Natural Language Processing")
         print("Sub-Fields in AI are:")
-        print("Machine Learning")
-        print("Neural Networks")
-        print("Vision")
-        print("Robotics")
-        print("Speech Processing")
-        print("Natural Language Processing")
+        course = ["Machine Learning", "Neural Networks", "Vision", "Robotics", "Speech Processing", "Natural Language Processing"]
+        for subfields in course:
+            print(subfields)
         
     def oddeven():
         num = int(input("Enter a number:"))
